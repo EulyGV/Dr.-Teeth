@@ -10,10 +10,11 @@ import mainView from '../mainView'
 
 
 import listaOdontologos from '../views/basic-elements/listaOdontologos'
-//import nuevaConsulta from '../views/basic-elements/nuevaConsulta'
+import nuevaConsulta from '../views/basic-elements/nuevaConsulta'
 import nuevoPaciente from '../views/basic-elements/nuevoPaciente'
+import listaPacientes from '../views/basic-elements/listaPacientes'
 import nuevoOdontologo from '../views/basic-elements/nuevoOdontologo'
-//import Tratamiento from '../views/basic-elements/Tratamiento'
+import Tratamiento from '../views/basic-elements/Tratamiento'
 import nuevoAdministrador from '../views/basic-elements/nuevoAdministrador'
 
 
@@ -51,6 +52,11 @@ export default new Router({
         component: dashAdmin
       },
       {
+        path: '/listaPacientes',
+        name: 'listaPacientes',
+        component: listaPacientes
+      },
+      {
         path: '/listaOdontologos',
         name: 'listaOdontologos',
         component: listaOdontologos
@@ -65,15 +71,15 @@ export default new Router({
         name: 'nuevoOdontologo',
         component: nuevoOdontologo
       },
-      //{
-        //path: '/Tratamiento',
-        //name: 'Tratamiento',
-       // component: Tratamiento
-      //},
-     // {
-       // path: '/nuevaConsulta',
-        //component: nuevaConsulta
-      //},
+      {
+        path: '/Tratamiento',
+        name: 'Tratamiento',
+        component: Tratamiento
+      },
+      {
+        path: '/nuevaConsulta',
+       component: nuevaConsulta
+      },
       {
         path: '/nuevoPaciente',
         component: nuevoPaciente

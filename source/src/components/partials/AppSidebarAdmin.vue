@@ -6,7 +6,7 @@
           
          </div>  
         <li class="nav-item nav-category"></li>
-        <li class="nav-item">
+       <!-- <li class="nav-item">
           <a class="nav-link" v-b-toggle="'dashboard-dropdown'">
             <i class="menu-icon typcn typcn-document-text"></i>
             <router-link class="nav-link" to="/">
@@ -15,29 +15,29 @@
             <i class="menu-arrow"></i>
           </a>
           
-        </li>
+        </li>-->
         <li class="nav-item">
           <a class="nav-link" v-b-toggle="'ui-basic'">
             <i class="menu-icon typcn typcn-coffee"></i>
-            <span class="menu-title">Pacientes</span>
+            <span class="menu-title">Odontólogos</span>
             <i class="menu-arrow"></i>
           </a>
           <b-collapse id="ui-basic">
             <ul class="nav flex-column sub-menu">
               <li class="nav-item">
-                <router-link class="nav-link" to="/listaPacientes/">Lista de Pacientes</router-link>
+                <router-link class="nav-link" to="/listaOdontologos/">Lista de Odontologos</router-link>
               </li>
-              <li class="nav-item">
+              <!--<li class="nav-item">
                 <router-link class="nav-link" to="/nuevaConsulta/">Nueva Consulta</router-link>
-              </li>
+              </li>-->
               <li class="nav-item">
-                <router-link class="nav-link" to="/nuevoPaciente/">Nuevo Paciente</router-link>
+                <router-link class="nav-link" to="/nuevoOdontologo/">Nuevo Odontólogo</router-link>
               </li>
             </ul>
           </b-collapse>
         </li>
         
-         <li class="nav-item">
+        <!-- <li class="nav-item">
           <span class="nav-link" v-b-toggle="'charts-dropdown'">
             <i class="menu-icon typcn typcn-th-large-outline"></i>
             <span class="menu-title">Agenda</span>
@@ -50,8 +50,21 @@
               </li>
               <li class="nav-item">
                 <router-link class="nav-link" to="/registro/">Nueva Cita</router-link>
-              </li>
+              </li>-->
              
+
+             <li class="nav-item">
+          <span class="nav-link" v-b-toggle="'charts-dropdown'">
+            <i class="menu-icon typcn typcn-th-large-outline"></i>
+            <span class="menu-title">Administrador</span>
+            <i class="menu-arrow"></i>
+          </span>
+          <b-collapse id="charts-dropdown">
+            <ul class="nav flex-column sub-menu">
+              <li class="nav-item">
+                <router-link class="nav-link" to="/nuevoAdministrador/">Nuevo Administrador</router-link>
+              </li>
+              
                              
             </ul>
             

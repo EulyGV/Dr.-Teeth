@@ -23,12 +23,14 @@
 <script lang="js">
 import AppHeader from '../src/components/partials/AppHeader'
 import AppSidebar from '../src/components/partials/AppSidebar'
+import AppSidebarAdmin from '../src/components/partials/AppSidebarAdmin'
 import AppFooter from '../src/components/partials/AppFooter'
 export default {
   name: 'main',
   components: {
     AppHeader,
     AppSidebar,
+    AppSidebarAdmin,
     AppFooter
   }
 }

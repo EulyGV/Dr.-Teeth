@@ -13,7 +13,7 @@
         <div class="table-wrapper">
             <div class="table-title">
                 <div class="row">
-                    <div class="col-sm-8"><h2>Listado de Odontólogo</h2></div>
+                    <div class="col-sm-8"><h2>Listado de Pacientes</h2></div>
                     
                 </div>
             </div>
@@ -28,8 +28,8 @@
                         <th>Dirección</th>
                         <th>Ciudad <i class="fa fa-sort"></i></th>
                         <th>Numero de documento</th>
-                        <th>Eliminar</th>
-                        <th>Ver</th>
+                        <th>Realizar Tratamiento</th>
+                        <th>Historia Clinica</th>
                         
                         
                     </tr>
